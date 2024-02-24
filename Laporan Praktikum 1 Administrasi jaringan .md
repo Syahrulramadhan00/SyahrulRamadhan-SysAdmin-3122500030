@@ -5,7 +5,7 @@
 
 “Instalasi Debian 12”
 
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.001.png)
+![](image/cover.png)
 
 
 `  `**Disusun Oleh:**
