@@ -200,14 +200,27 @@ Buatlah tulisan tentang langkah-langkah instalasi sistem operasi Debian. Anda bi
 
   <p align="center">  
    <img src="img/35.PNG" alt="" width="400" height="300">
-   <img src="img/tambahan.PNG" alt="" width="400" height="300">
+   <img src="img/tambahan.png" alt="" width="400" height="300">
 </p>
 
-- Setelah selesai install GRUB pilih menu seperti dibawah ini![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.042.png)
-- Maka akan tampil seperti dibawah jika instalasi selesai.![ref2]
+- Setelah selesai install GRUB pilih menu seperti dibawah ini. lalu pilih continue tunggu sampai instalasi selesai
+
+  <p align="center">  
+   <img src="img/36.PNG" alt="" width="400" height="300">
+</p>
+
+- Maka akan tampil seperti dibawah jika instalasi selesai.
+
+  <p align="center">  
+   <img src="img/37.PNG" alt="" width="400" height="300">
+</p>
+
 - Pilih Debian GNU/Linux pada menu lalu login dengan password yang sudah di inputkan
 
-  ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.044.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.045.png)
+  <p align="center">  
+   <img src="img/38.PNG" alt="" width="400" height="300">
+   <img src="img/39.PNG" alt="" width="400" height="300">
+</p>
 
 
 
@@ -230,7 +243,10 @@ File "/etc/group" adalah salah satu file konfigurasi pada sistem Linux yang meng
 
 isi file :
 
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.046.png)
+  <p align="center">  
+   <img src="img/nomor_3.png" alt="" width="500" height="400">
+</p>
+
 ### <a name="_p7du05ek0398"></a>**Fungsi:**
 1. **Mengelola Grup Pengguna:** File "/etc/group" digunakan untuk mengelola grup-grup pengguna pada sistem Linux. Setiap baris dalam file ini mewakili satu grup, dan setiap grup memiliki beberapa atribut yang terkait dengannya seperti nama grup, ID grup, anggota grup, dan grup administrator.
 1. **Akses dan Hak Akses:** File "/etc/group" juga berperan dalam mengatur akses ke berbagai sumber daya sistem seperti file dan direktori. Grup-grup yang terdaftar dalam file ini dapat digunakan untuk memberikan atau membatasi akses pengguna terhadap file dan direktori tertentu.
@@ -267,7 +283,9 @@ File "/etc/group" hanya dapat diakses oleh pengguna root untuk menghindari modif
 
 4\. Jelaskan perbedaan penggunaan perintah "su" dengan "su -"!
 
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.047.png)
+ <p align="center">  
+   <img src="img/nomor_4.png" alt="" width="500" height="400">
+</p>
 
 - **su**:
   - Ketika menjalankan **su** tanpa opsi tambahan, itu akan mengganti pengguna (user) Anda saat ini dengan pengguna lain (biasanya root).
@@ -283,7 +301,9 @@ File "/etc/group" hanya dapat diakses oleh pengguna root untuk menghindari modif
 
 contoh penggunaan sudo untuk mengatur hak akses :
 
-`	`![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.048.png)
+ <p align="center">  
+   <img src="img/nomor_5.png" alt="" width="400" height="350">
+</p>
 
 Perintah **sudo** (singkatan dari "superuser do") adalah utilitas yang umum digunakan dalam sistem Unix dan Linux untuk memberikan hak akses superuser (atau hak akses root) kepada pengguna biasa untuk menjalankan perintah atau menjalankan program dengan hak akses yang diperlukan. Ini memberikan fleksibilitas dalam manajemen hak akses di lingkungan multi-pengguna, di mana tidak semua pengguna perlu memiliki akses penuh ke sistem.
 
@@ -305,13 +325,16 @@ Berikut adalah beberapa fungsi utama dari **sudo**:
 1. ` `Di bawah baris yang mencantumkan hak akses root, tambahkan baris baru untuk menambahkan hak akses sudo untuk pengguna. Misalnya, karena nama user saya handarudwiking maka saya masukkan itu:
 1. Artinya, "handarudwiking" diberikan izin untuk menjalankan semua perintah (ALL) sebagai semua pengguna ((ALL)) dan dalam semua terminal ((ALL)).
 1. Save Konfigurasi dan keluar
-1. ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.049.png)
 
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.050.png)
+   <img src="img/nomor_6a.png" alt="" width="600"></p>
+1.
+     
+<img src="img/nomor_6b.png" alt="" width="600">
 
 
-` `lalu cek dengan perintah sudo apa berhasil dibawah ini tidak berhasil karena saya sudah hapus tulisan diatas untuk versi yang berhasil ada di gambar yang atas	![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.051.png)
+lalu cek dengan perintah sudo apa berhasil dibawah ini tidak berhasil karena saya sudah hapus tulisan diatas untuk versi yang berhasil ada di gambar yang atas	
 
 
-[ref1]: Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.039.png
-[ref2]: Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.043.png
+<img src="img/nomor_6c.png" alt="" width="600" >
+
+
