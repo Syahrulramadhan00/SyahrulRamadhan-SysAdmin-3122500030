@@ -1,28 +1,37 @@
-﻿
-**LAPORAN PRAKTIKUM WORKSHOP** 
+<h1 align="center">
+LAPORAN PRAKTIKUM WORKSHOP
 
 **ADMINISTRASI JARINGAN**
-
+</h1>
+<p align="center">
 “Instalasi Debian 12”
+</p>
 
-![](image/cover.png)
+<p align="center">
+    <img src="img/cover.png" alt="Cover Image" width="480" height="420">
+</p>
 
-
-`  `**Disusun Oleh:**
+<h4 align="center">
+   
+Disusun Oleh:
 
 **Gede Hari Yoga Nanda  					3122500005**
 
 **Handaru Dwiki Yuntara     				3122500017**
 
 **Muhammad Syahrul Ramadhan				3122500030**
+</h4>
 
-` `**2 D3 INFORMATIKA**
+<h3 align="center">  
+   
+2 D3 INFORMATIKA A
 
-**A**
-# **DEPARTEMEN TEKNIK INFORMATIKA DAN KOMPUTER JURUSAN TEKNIK INFORMATIKA**
-**POLITEKNIK ELEKTRONIKA NEGERI SURABAYA**
 
-**2023/2024**
+DEPARTEMEN TEKNIK INFORMATIKA DAN KOMPUTER JURUSAN TEKNIK INFORMATIKA
+POLITEKNIK ELEKTRONIKA NEGERI SURABAYA
+
+2023/2024
+</h3>
 
 
 
@@ -39,90 +48,161 @@ Buatlah tulisan tentang langkah-langkah instalasi sistem operasi Debian. Anda bi
 
 - Langkah pertama beri nama direktori SysAdmin dan taruh direktori sesuai keinginan anda lalu masukan iso debian 12. berikut link downloadnya: [Debian -- Downloading Debian](https://www.debian.org/download) 
 
-`	`![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.002.png)
+<p align="center">
+    <img src="img/setup_1.png" alt="setup1" width="500" height="300">
+</p>
 
 
 
 - Lalu beri nama hostname dengan format: “SysAdmin-NRP” berikan username dan dan password sesuai keinginan anda lalu sesuaikan semua form dengan gambar dibawah ini:
 
 
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.003.png)
+<p align="center">
+    <img src="img/setup_2.png" alt="setup2" width="500" height="300">
+</p>
 
 
-- Set disk size 20 GB 
+- Set disk size 20 GB sesuai dengan instruksi soal
 
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.004.png)
+<p align="center">
+    <img src="img/setup_3.png" alt="setup3" width="500" height="300">
+</p>
 
 
 
 - Ini adalah summary dari data yang sudah kita set sebelumnya. pastikan sesuai dengan spesifikasi yang ditentukan sebelumnya
 
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.005.png)
+<p align="center">
+    <img src="img/setup_4.png" alt="setup4" width="500" height="300">
+</p>
 
 - Lalu sesuaikan penggunaan RAM 4GB dan Processor  2 CPU sesuai dengan persyaratan minimum. Jika device memumpuni maka lebihi agar lebih lancar.
 
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.006.png)
 
+<p align="center">
+    <img src="img/setup_5.png" alt="setup5" width="500" height="300">
+</p>
 
 
 - Lalu pilih graphical Install dan akan muncul seperti dibawah berikut. setelah itu pilih bahasa english dan american english sesuai dengan gambar
 
-  ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.007.png)
 
-- Masukan hostname sesuai dengan hostname instalasi “SysAdmin-NRP” ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.008.png)
-
-
-
-- Kosongi bagian domain name dan masukan password sesuai keinginan anda![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.009.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.010.png)
-- Masukan nama user dan password sesuai dengan prefrensi anda
-
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.011.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.012.png)
+<p align="center">
+    <img src="img/1.PNG" alt="" width="500" height="300">
+</p>
 
 
+- Masukan hostname sesuai dengan hostname instalasi “SysAdmin-NRP” 
 
+<p align="center">
+    <img src="img/2.PNG" alt="" width="500" height="300">
+</p>
 
+- Kosongi bagian domain name 
 
+<p align="center">
+    <img src="img/3.PNG" alt="" width="500" height="300">
+</p>
 
+- Masukan user dan password sesuai dengan prefrensi anda
 
-
-
-
+<p align="center">
+    <img src="img/4.PNG" alt="" width="400" height="300">
+    <img src="img/5.PNG" alt="" width="400" height="300">
+</p>
 
 - Masukan clock pacific dan pilih partition method secara manual dan lalu pilih yes
 
-![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.013.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.014.png)
+<p align="center">
+   <img src="img/7.PNG" alt="" width="400" height="300">
+     <img src="img/8.PNG" alt="" width="400" height="300">
+</p>
 
-- Setelah itu pilih menu seperti dibawah ini lalu pilih create new partition sebesar 20GB ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.015.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.016.png)
+- Setelah itu pilih menu seperti dibawah ini lalu pilih create new partition sebesar 20GB 
 
-  ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.017.png)
+  <p align="center">
+     <img src="img/11.PNG" alt="" width="400" height="300">
+  <img src="img/12.PNG" alt="" width="400" height="300">
+    <img src="img/10.PNG" alt="" width="400" height="300">
+</p>
 
 - Pilih bootable flag agar on dan pilih menu done setting up the partition
+  
+<p align="center">
+    <img src="img/13.PNG" alt="" width="400" height="300">
+    <img src="img/14.PNG" alt="" width="400" height="300">
+</p>
 
-  ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.018.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.019.png)
+- Setelah itu buat partition baru dengan jenis partition disk primary dengan size 5GB
 
-- Setelah itu buat partition baru dengan jenis partition disk primary dengan size 5GB![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.020.png)
+  <p align="center">
+    
+    <img src="img/15.PNG" alt="" width="400" height="300">
+    <img src="img/16.PNG" alt="" width="400" height="300">
+    <img src="img/17.PNG" alt="" width="400" height="300">
+    <img src="img/18.PNG" alt="" width="400" height="300">
+    
+</p>
 
-  ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.021.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.022.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.023.png)
+- Pilih menu use as dan pilih pilih enter manually dan ganti dengan “/storage” setelah itu pilih menu done setting up the partition
 
-- Pilih menu use as dan pilih pilih enter manually dan ganti dengan “/storage” setelah itu pilih menu done setting up the partition![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.024.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.025.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.026.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.027.png)
+  <p align="center">
+    
+    <img src="img/19.PNG" alt="" width="400" height="300">
+    <img src="img/20.PNG" alt="" width="400" height="300">
+    <img src="img/21.PNG" alt="" width="400" height="300">
+    <img src="img/22.PNG" alt="" width="400" height="300">
+    
+</p>
+
 - Lalu hasilnya seperti ini. setelah itu tambahkan lagi new partition
 
-  ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.028.png)
+ <p align="center">  
+    <img src="img/23.PNG" alt="" width="400" height="300">
+</p>
 
 - Masukan size partition 1,5GB lalu pilih menu use as dan pilih swap area setelah itu pilih done setting up the partition
-- Setelah itu akan tampil seperti dibawah ini. lalu jika selesai pilih done setting up the partition![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.029.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.030.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.031.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.032.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.033.png)
+   <p align="center">  
+   <img src="img/24.PNG" alt="" width="400" height="300">
+   <img src="img/26.PNG" alt="" width="400" height="300">
+   <img src="img/27.PNG" alt="" width="400" height="300">
+    <img src="img/25.PNG" alt="" width="400" height="300">
+</p>
 
-- Setelah semua selesai pastikan semua settingan partition seperti dibawah berikut. Jika sesuai pilih finish partitioning and write changes to disk lalu pilih yes![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.034.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.035.png)
-- pilih package manager dari deb.debian.org lalu pilih no untuk configure ![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.036.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.037.png)
+- Setelah itu akan tampil seperti dibawah ini. lalu jika selesai pilih done setting up the partition
 
+<p align="center">  
+    <img src="img/28.PNG" alt="" width="400" height="300">
+</p>
 
+- Setelah semua selesai pastikan semua settingan partition seperti dibawah berikut. Jika sesuai pilih finish partitioning and write changes to disk lalu pilih yes
 
+<p align="center">  
+    <img src="img/29.PNG" alt="" width="400" height="300">
+    <img src="img/30.PNG" alt="" width="400" height="300">
+</p>
 
+- pilih package manager dari deb.debian.org lalu pilih no untuk configure 
 
+<p align="center">  
+   <img src="img/32.PNG" alt="" width="400" height="300">
+    <img src="img/31.PNG" alt="" width="400" height="300">
+</p>
 
+- Kosongi HTTP Proxy dan pilih continue untuk melanjutkan instalasi
 
-- Kosongi HTTP Proxy dan pilih continue untuk melanjutkan instalasi![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.038.png)![ref1]
-- Centang web server dan SSH server lalu continue lalu pilih yes untuk install GRUB![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.040.png)![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.041.png)
+<p align="center">  
+   <img src="img/33.PNG" alt="" width="400" height="300">
+    <img src="img/34.PNG" alt="" width="400" height="300">
+</p>
+
+- Centang web server dan SSH server lalu continue lalu pilih yes untuk install GRUB
+
+  <p align="center">  
+   <img src="img/35.PNG" alt="" width="400" height="300">
+   <img src="img/tambahan.PNG" alt="" width="400" height="300">
+</p>
+
 - Setelah selesai install GRUB pilih menu seperti dibawah ini![](Aspose.Words.1317805a-9a9b-43e4-8d67-e23820876ef7.042.png)
 - Maka akan tampil seperti dibawah jika instalasi selesai.![ref2]
 - Pilih Debian GNU/Linux pada menu lalu login dengan password yang sudah di inputkan
