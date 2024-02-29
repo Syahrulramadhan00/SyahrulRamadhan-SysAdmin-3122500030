@@ -123,3 +123,7 @@ Sistem file sementara yang menyimpan file sementara yang dibersihkan saat sistem
 <p align="center">
     <img src="img/Tugas2/Mindmaps.jpg" alt="">
 </p>
+
+
+<p> link PPT:</p>
+<link> https://www.canva.com/design/DAF-LbQcD9s/3PQI703JvkqvEKSjdG73pQ/edit</link>
