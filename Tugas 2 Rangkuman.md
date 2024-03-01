@@ -124,6 +124,44 @@ Sistem file sementara yang menyimpan file sementara yang dibersihkan saat sistem
     <img src="img/Tugas2/Mindmaps.jpg" alt="">
 </p>
 
+<p> setting network ip addres</p>
+
+<p align="center">
+    <img src="img/tugas2-1.png" alt="Cover Image" width="480" height="420">
+</p>
+
+<p> buka wired setting </p>
+
+<p align="center">
+    <img src="img/tugas2-2.png" alt="Cover Image" width="480" height="420">
+</p>
+
+<p> pilih pengaturan lalu ipv4 dan pilih manual </p>
+
+<p align="center">
+    <img src="img/tugas2-3.png" alt="Cover Image" width="480" height="420">
+</p>
+
+<p> setting addresses nya, lalu apply </p>
+
+<p align="center">
+    <img src="img/tugas2-4png" alt="Cover Image" width="480" height="420">
+</p>
+
+<p> cek ip address lagi apakah pastikan sudah berubah (setting berhasil)</p>
+
+<p align="center">
+    <img src="img/tugas2-5png" alt="Cover Image" width="480" height="420">
+</p>
+
+<p>selanjutnya refresh wifi dan cek apakah bisa tetap tersambung atau tidak</p>
+
+<p align="center">
+    <img src="img/tugas2-6png" alt="Cover Image" width="480" height="420">
+</p>
+
+ternyata tidak connect ke internet 
+
 
 <p> link PPT:</p>
 <link> https://www.canva.com/design/DAF-LbQcD9s/3PQI703JvkqvEKSjdG73pQ/edit</link>
