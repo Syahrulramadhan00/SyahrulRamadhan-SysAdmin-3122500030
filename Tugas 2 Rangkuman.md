@@ -124,6 +124,10 @@ Sistem file sementara yang menyimpan file sementara yang dibersihkan saat sistem
     <img src="img/Tugas2/Mindmaps.jpg" alt="">
 </p>
 
+
+
+<h1>Berikut Tutorial Setting Network</h1>
+
 <p> setting network ip addres</p>
 
 <p align="center">
@@ -145,19 +149,19 @@ Sistem file sementara yang menyimpan file sementara yang dibersihkan saat sistem
 <p> setting addresses nya, lalu apply </p>
 
 <p align="center">
-    <img src="img/tugas2-4png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas2-4.png" alt="Cover Image" width="480" height="420">
 </p>
 
 <p> cek ip address lagi apakah pastikan sudah berubah (setting berhasil)</p>
 
 <p align="center">
-    <img src="img/tugas2-5png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas2-5.png" alt="Cover Image" width="480" height="420">
 </p>
 
 <p>selanjutnya refresh wifi dan cek apakah bisa tetap tersambung atau tidak</p>
 
 <p align="center">
-    <img src="img/tugas2-6png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas2-6.png" alt="Cover Image" width="480" height="420">
 </p>
 
 ternyata tidak connect ke internet 
