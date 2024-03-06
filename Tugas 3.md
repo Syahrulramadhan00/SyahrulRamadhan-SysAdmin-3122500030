@@ -86,13 +86,13 @@ apt remove ‘?absolete’
 untuk menampilkan dan membersihkan file konfigurasi yang tetap ada meskipun aplikasi telah dihapus, Anda dapat menggunakan perintah-perintah berikut:
 
  <p align="center">
-    <img src="img/tugas3-6.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-6.png" alt="Cover Image">
 </p>
 
 lebih detail, dapat menginstal alat deborphan yang mencantumkan paket-paket terlantar di sistem Anda
  
 <p align="center">
-    <img src="img/tugas3-7.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-7.png" alt="Cover Image">
 </p>
 
 <h2>8.6.3 kosongkan trash bin</h2>
@@ -102,12 +102,12 @@ Tiga tempat sampah file yang berbeda harus diperhatikan:
 
 -	Tempat sampah pengguna: ~/.local/share/Trash/. Anda dapat mengosongkannya dengan manajer file sistem atau melalui terminal.
  <p align="center">
-    <img src="img/tugas3-8.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-8.png" alt="Cover Image">
 </p>
 
 -	Tempat sampah administrator: /root/.local/share/Trash/. Untuk mengosongkannya dengan cara yang benar, gunakan terminal dalam mode administrator:
  <p align="center">
-    <img src="img/tugas3-9.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-9.png" alt="Cover Image">
 </p>
 
 -	Tempat sampah eksternal: terletak pada disk eksternal Anda, biasanya dinamai '/media/y- our_id/your_disk/.Trash_1000', di mana your_id sesuai dengan nama login Anda.
@@ -117,7 +117,7 @@ Tiga tempat sampah file yang berbeda harus diperhatikan:
 
 beberapa aplikasi menggunakan folder cache untuk menyimpan gambar, video dll dari aplikasi. dimana akan menghabiskan banyak disk jadi dihapus saja gapapa dengan menggunakan command : 
  <p align="center">
-    <img src="img/tugas3-10.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-10.png" alt="Cover Image">
 </p>
 
 <h2>8.6.5 membersihkan thumbnails</h2>
@@ -126,7 +126,7 @@ beberapa aplikasi menggunakan folder cache untuk menyimpan gambar, video dll dar
 Setiap kali Anda membuka folder yang berisi gambar atau video, thumbnail dibuat untuk mewakili file grafis tersebut. Thumbnail ini disimpan di folder khusus untuk digunakan kembali.Permasalahannya muncul ketika Anda menghapus file grafis, karena thumbnail-nya tetap ada di sistem, dan ini menyebabkan ruang disk terbuang untuk menyimpan thumbnail yang sudah lama.
 Untuk membersihkannya, cukup hapus folder 
  <p align="center">
-    <img src="img/tugas3-11.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-11.png" alt="Cover Image">
 </p>
 
 <h2>8.7.1 instalasi Graphic mode dengan GDebi</h2>
@@ -144,22 +144,22 @@ setelah terdownload klik kanan dan select open with gdebi
 dalam menu dalam, klik file lalu open dan enter path .deb file
  
 <p align="center">
-    <img src="img/tugas3-13.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-13.png" alt="Cover Image">
 </p>
 
 lalu install paket 
  
  <p align="center">
-    <img src="img/tugas3-14.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-14.png" alt="Cover Image">
 </p>
  <p align="center">
-    <img src="img/tugas3-15.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-15.png" alt="Cover Image">
 </p>
 
 untuk menuninstall. klik saja removal package 
 
 <p align="center">
-    <img src="img/tugas3-16.png" alt="Cover Image" width="480" height="420">
+    <img src="img/tugas3-16.png" alt="Cover Image">
 </p>
 
 <h2>8.7.2 instalasi di terminal dengan dpkg</h2>
