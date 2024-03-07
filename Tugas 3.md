@@ -225,8 +225,109 @@ lalu bisa dicek, aplikasi pasti sudah di uninstall
 bisa dicek dengan searching aplikasi atau menggunakan perintah yang sebelumnya yaitu dpkg -l -> untuk melihat aplikasi yang diinstall pasti tidak ada 
 
 
+<h2>Setting Mikrotik</h2>
 
+Pastikan sudah menginstal winbox pada device anda dibawah berikut:
+<a href="https://mikrotik.com/download"> Link Download</a> 
 
+Setelah menginstall cek ping 192.168.88.254 Jika berhasil maka akan tampil seperti dibawah ini:
 
+  <p align="center">
+    <img src="img/tugas3-24.png" alt="Cover Image" width="480" height="420">
+</p>
 
+setelah itu buat bridge baru dan beri nama bridge1:
 
+  <p align="center">
+    <img src="img/tugas3-25.png" alt="Cover Image" width="480" height="420">
+</p>
+
+hasilnya akhirnya seperti dibawah ini:
+
+  <p align="center">
+    <img src="img/tugas3-26.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Setelah itu ganti ke menu port dan tambah sampai 4 ether dan pastikan bridge setiap ether adalah bridge1
+
+  <p align="center">
+    <img src="img/tugas3-27.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Setting ether 2 dan isi address dan network sesuai dengan gambar dibawah
+
+  <p align="center">
+    <img src="img/tugas3-28.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Set route dan gateway agar dapat tersambung
+
+  <p align="center">
+    <img src="img/tugas3-29.png" alt="Cover Image" width="480" height="420">
+</p>
+
+hasilnya akan seperti dibawah ini
+
+  <p align="center">
+    <img src="img/tugas3-30.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Lalu setup DHCP server dengan interface bridge1:
+
+  <p align="center">
+    <img src="img/tugas3-31.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Masukan Gateway 192.168.4.1
+
+  <p align="center">
+    <img src="img/tugas3-32.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Set Addreses to Give Out 200-192
+
+  <p align="center">
+    <img src="img/tugas3-33.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Masukan DNS PENS yaitu 202.9.85.3
+
+  <p align="center">
+    <img src="img/tugas3-34.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Setelah DHCP server aktif maka kita akan dapat IP yang sesuai seperti dibawah:
+
+  <p align="center">
+    <img src="img/tugas3-35.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Setting NAT dengan konfigurasi seperti dibawah ini:
+
+  <p align="center">
+    <img src="img/tugas3-36.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Pastikan action dalam mode masquerade
+
+  <p align="center">
+    <img src="img/tugas3-37.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Maka hasil akhirnya menjadi seperti dibawah berikut:
+
+  <p align="center">
+    <img src="img/tugas3-38.png" alt="Cover Image" width="480" height="420">
+</p>
+
+Cek IP di device anda di setting untuk memastikan set up bekerja
+
+  <p align="center">
+    <img src="img/tugas3-39.png" alt="Cover Image" width="480" height="420">
+</p>
+
+jika sesuai coba tes browsing di google
+
+  <p align="center">
+    <img src="img/tugas3-40.png" alt="Cover Image" width="480" height="420">
+</p>
