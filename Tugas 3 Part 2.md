@@ -102,7 +102,7 @@ Tes menggunakan "nslookup 192.168.4.1" dan "nslookup ns.kelompok4.local" untuk m
 ![alt](img/tugas3-56.png)
 ![alt](img/tugas3-57.png)
 
-Terakhir lakukan pengetesan dengan cara "dig ns.kelompok4.local" dan "dig 192.168.4.1"
+Terakhir lakukan pengetesan dengan cara "dig ns.kelompok4.local" dan "dig -x 192.168.4.1"
 ![alt](img/tugas3-58.png)
 ![alt](img/tugas3-59.png)
 
