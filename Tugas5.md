@@ -195,9 +195,9 @@ Maka hasil ketika memberikan privileges root ke user phpmyadmin
 
 install postfix dengan command `apt -y install postfix sasl2-bin`
 ![mailserver](/img/Tugas5/mailserver1.png)
-
 Pilih No configuration
 ![mailserver](/img/Tugas5/mailserver2.png)
+
 
 Copas file main.cf ke direktori lain seperti berikut `cp /usr/share/postfix/main.cf.dist /etc/postfix/main.cf`
 ![mailserver](/img/Tugas5/mailserver3.png)
@@ -268,21 +268,21 @@ Coba buat user baru dengan `sudo useradd` lalu login setelah itu kirim pesan ke 
 Masuk ke` MySQL mysql -u root -p` setelah itu 
 Buat Database `CREATE DATABASE roundcubemail;` lalu
 Buat User `CREATE USER 'roundcube'@'localhost' IDENTIFIED BY 'password';`
-![roundcube](/img/tugas5/roundcube1.png)
+![roundcube](/img/Tugas5/roundcube1.png)
 
 Berikan Hak Akses dengan command `grant all privileges on roundcube.* to roundcube@'localhost' identified by 'password'; `
-![roundcube](/img/tugas5/roundcube2.png)
+![roundcube](/img/Tugas5/roundcube2.png)
 
 Install roundcube dengan command `sudo apt-get install -y roundcube roundcube-mysql` dan pilih no karena database sudah kita buat sebelumnya
-![roundcube](/img/tugas5/roundcube3.png)
+![roundcube](/img/Tugas5/roundcube3.png)
 
 Masuk ke direktori konfigurasi `cd /usr/share/dbconfig-common/data/roundcube/install/`
 import database `mysql -u roundcube -D roundcube -p < mysql `kemudian masukkan password yang telah dibuat sebelumnya
 Konfigurasi database sudo nano /etc/roundcube/debian-db.php
-![roundcube](/img/tugas5/roundcube6.png)
+![roundcube](/img/Tugas5/roundcube6.png)
 
 Lalu sesuaikan dengan konfigurasi database sebelumnya
-![roundcube](/img/tugas5/roundcube7.png)
+![roundcube](/img/Tugas5/roundcube7.png)
 
 Konfigurasi Roundcube sudo nano /etc/roundcube/config.inc.php
 
@@ -319,9 +319,9 @@ tambah pada baris paling akhir:
             ),
         );
 
-![roundcube](/img/tugas5/roundcube4.png)
-![roundcube](/img/tugas5/roundcube5.png)
+![roundcube](/img/Tugas5/roundcube4.png)
+![roundcube](/img/Tugas5/roundcube5.png)
 
 
 Setelah itu lanjut ke `sudo nano etc/apache2/sites-available/000-default.conf` tambahkan konfigurasi `Servername mail.kelompok4.local `dan `DocumentRoot /var/www/html`
-![roundcube](/img/tugas5/roundcube9.png)
+![roundcube](/img/Tugas5/roundcube9.png)
