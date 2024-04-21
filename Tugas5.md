@@ -268,12 +268,15 @@ Coba buat user baru dengan `sudo useradd` lalu login setelah itu kirim pesan ke 
 Masuk ke` MySQL mysql -u root -p` setelah itu 
 Buat Database `CREATE DATABASE roundcubemail;` lalu
 Buat User `CREATE USER 'roundcube'@'localhost' IDENTIFIED BY 'password';`
+
 ![roundcube](/img/Tugas5/roundcube1.png)
 
 Berikan Hak Akses dengan command `grant all privileges on roundcube.* to roundcube@'localhost' identified by 'password'; `
+
 ![roundcube](/img/Tugas5/roundcube2.png)
 
 Install roundcube dengan command `sudo apt-get install -y roundcube roundcube-mysql` dan pilih no karena database sudah kita buat sebelumnya
+
 ![roundcube](/img/Tugas5/roundcube3.png)
 
 Masuk ke direktori konfigurasi `cd /usr/share/dbconfig-common/data/roundcube/install/`
@@ -324,4 +327,5 @@ tambah pada baris paling akhir:
 
 
 Setelah itu lanjut ke `sudo nano etc/apache2/sites-available/000-default.conf` tambahkan konfigurasi `Servername mail.kelompok4.local `dan `DocumentRoot /var/www/html`
+
 ![roundcube](/img/Tugas5/roundcube9.png)
