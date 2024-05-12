@@ -76,3 +76,70 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA
    - Meskipun server web dapat menyajikan konten statis dengan baik, halaman web dengan komponen adaptif biasanya didukung oleh teknologi lain selain server web.
   
 ![docker](/img/Tugas6/docker.jpg)
+
+# Docker
+
+Pertama tama jalankan perintah `for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done` untuk menghapus package docker yang tidak diperlukan
+
+![docker](/img/Tugas6/docker1.png)
+
+Jalankan perintah `sudo apt-get update` untuk update debian dan jalankan untuk install docker engine `sudo apt-get install ca-certificates curl`
+
+![docker](/img/Tugas6/docker2.png)
+
+Lalu install keyrings untuk docker dengan command
+
+      sudo install -m 0755 -d /etc/apt/keyrings
+      sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o etc/apt/keyrings/docker.asc
+      sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+dan juga add repository ke apt sources 
+
+      echo \
+      "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+      $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+      sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+      sudo apt-get update
+
+![docker](/img/Tugas6/docker3.png)
+
+Install Docker CE dengan perintah `sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin` Lalu pilih yes semua
+
+![docker](/img/Tugas6/docker4.png)
+
+selesai instalasi, coba docker run hello world karena unnable fine, jadi otomatis akan pull
+
+![docker](/img/Tugas6/docker5.png)
+
+coba cek container dengan perintah `docker ps -a`
+
+![docker](/img/Tugas6/docker6.png)
+
+# Instalasi UPTIME-KUMA
+
+instalasi kuma dengan membuka dokumentasi di github nya uptime-kuma dan lakukan instalasi https://github.com/louislam/uptime-kuma
+
+![docker](/img/Tugas6/docker7.png)
+
+lalu setelah berhasil, coba buka dengan url `localhost:3001 `
+
+![docker](/img/Tugas6/docker8.png)
+
+# Monitoring 
+
+Pergi ke `sudo nano /var/lib/bind/db.kelompok4.local` tambahkan setingan monitoring seperti pada dibawah berikut:
+
+![monitoring](/img/Tugas6/monitoring1.png)
+
+Lalu jalankan perintah `sudo a2enmod` dan Masukkan Package berikut:
+`proxy proxy_ajp proxy_http rewrite deflate headers proxy_balancer proxy_connect proxy_html`
+
+![monitoring](/img/Tugas6/monitoring2.png)
+
+Pergi ke `sudo nano /etc/apache2/sites-enabled/000-default.conf` lalu konfigurasi seperti dibawah berikut:
+
+![monitoring](/img/Tugas6/monitoring3.png)
+
+Maka hasilnya akan seperti ini:
+
+![monitoring](/img/Tugas6/monitoring4.jpeg)
