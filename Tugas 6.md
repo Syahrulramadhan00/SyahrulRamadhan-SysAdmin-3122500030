@@ -142,4 +142,4 @@ Pergi ke `sudo nano /etc/apache2/sites-enabled/000-default.conf` lalu konfiguras
 
 Maka hasilnya akan seperti ini:
 
-![monitoring](/img/Tugas6/monitoring4.jpeg)
+![monitoring](/img/Tugas6/monitoring4.png)
