@@ -4,7 +4,11 @@ Mobile Apps e-Klinik PENS</h1>
   <h4 style="text-align: center;">Dosen Pengampu : Dr. Ferry Astika Saputra, S.T., M.Sc.</h4>
 </div>
 
-<p align="center"><img src="images/logo.png" alt="logo"></p>
+<div align="center">
+
+![logo](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/9e8a55a1-94e8-45df-9462-e2fea6958f24)
+
+</div>
 
 <div align="center">
   <h3>KEMLOMPOK 4:</h3>
@@ -39,13 +43,26 @@ Tujuan utama dari proyek ini adalah untuk meningkatkan efisiensi operasional kli
 
 ## Daftar Isi
 
+- [Abstrak](#abstrak)
 - [Daftar Isi](#daftar-isi)
 - [Pendahuluan](#pendahuluan)
 - [Ruang Lingkup](#ruang-lingkup)
-- [Desain Sistem](#desain-sistem)
+- [Design Sistem](#design-sistem)
+  - [*1A: Data Source*](#1a-data-source)
+  - [*1B: Data Processing*](#1b-data-processing)
+  - [*1C: Mobile Apps*](#1c-mobile-apps)
+  - [*Interaksi Antar Bagian*](#interaksi-antar-bagian)
 - [Tim dan Tugas](#tim-dan-tugas)
+  - [*UI/UX Designer*](#uiux-designer)
+  - [*FrontEnd Mobile*](#frontend-mobile)
+  - [*BackEnd API \& Mobile*](#backend-api--mobile)
+  - [*Consume API*](#consume-api)
+  - [*Database*](#database)
 - [Tahapan Pelaksanaan](#tahapan-pelaksanaan)
-- [Sistem testing](#sistem-testing)
+- [Sistem Testing](#sistem-testing)
+  - [VERSI DOCKER](#versi-docker)
+  - [Fungsional Testing](#fungsional-testing)
+  - [Installation Testing](#installation-testing)
 - [Kesimpulan](#kesimpulan)
 
 <hr>
@@ -69,7 +86,11 @@ Backend aplikasi menggunakan framework Laravel untuk mengatur autentikasi penggu
 Server berfungsi sebagai perantara antara aplikasi mobile, backend, dan database. Server menerima request dari pengguna, kemudian meneruskannya ke backend dan database yang nantinya akan mengirimkan kembali respons kepada pengguna
 
 ## Design Sistem
-<p align="center"><img src="images/diagram sistem1.png" alt="desain_sistem"></p>
+<div align="center">
+
+![diagram sistem1](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/6d054b05-fdbb-4f36-8e66-bcea805826c4)
+
+</div>
 
 Deskripsi desain sistem dari aplikasi E-Klinik PENS sesuai dengan diagram yang disediakan adalah sebagai berikut:
 
@@ -158,7 +179,11 @@ Deskripsi desain sistem dari aplikasi E-Klinik PENS sesuai dengan diagram yang d
     
 ## Tahapan Pelaksanaan
 
-<p align="center"><img src="images/timeline.jpg" alt="timeline_kerja"></p>
+<div align="center">
+
+![timeline](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/c8c1f0bb-5eb7-4641-bb77-78757050d1d8)
+
+</div>
 
 1. Pengerjaan UI/UX dan Database<br> 
     Pelaksanaan UI/UX yang diikuti dengan penyusunan database dilakukan dalam kurun waktu 1 minggu (25 April -  2 Mei 2024)<br>
@@ -224,26 +249,34 @@ Dalam konteks menggunakan Docker untuk pengembangan dan pengujian aplikasi E-Kli
    - Menggunakan Docker Compose untuk mendefinisikan dan menjalankan layanan (MySQL, Laravel backend, dan API endpoint) dalam beberapa container yang terhubung.
    - Menguji integrasi antara aplikasi mobile (dalam container) dan backend (dalam container) melalui API.
 
-3. *System Testing*:
-   - Menjalankan seluruh aplikasi (frontend mobile, backend Laravel, dan database MySQL) dalam lingkungan container Docker untuk mensimulasikan lingkungan produksi.
-   - Menguji semua fitur utama secara end-to-end di dalam lingkungan yang mirip dengan produksi.
-
-4. *User Acceptance Testing (UAT)*:
-   - Menyediakan environment Docker yang bisa digunakan oleh pengguna akhir untuk melakukan pengujian.
-   - Menggunakan Docker untuk mengatur lingkungan pengujian yang konsisten dan mudah disebarluaskan kepada pengguna akhir untuk mendapatkan umpan balik.
-
 *Contoh Proses Pengujian Fungsional*:
-- Menjalankan docker-compose up untuk mengatur lingkungan pengujian yang mencakup semua layanan.
-- Menjalankan skrip pengujian otomatis dalam container yang memverifikasi berbagai fitur aplikasi seperti login, pengelolaan rekam medis, dan penjadwalan dokter.
 
 - Authentication
-<p align="center"><img src="images/auth (1).png" alt="authentication"></p> <br>
-<p align="center"><img src="images/auth (2).png" alt="authentication"></p>
+<div align="center">
+
+![image](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/988e5314-45d4-45fd-ae7d-6b4f5a5914b3)
+
+</div>
+
+<div align="center">
+
+![image](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/fa50eab9-862b-49d5-b5b9-dc7dfee2cd03)
+
+</div>
 
 - Clinic History
-<p align="center"><img src="images/clinic_history (1).png" alt="clinic history"></p> <br
->
-<p align="center"><img src="images/clinic_history (2).png" alt="clinic history"></p>
+
+<div align="center">
+
+![clinic_history (1)](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/655515b5-de3a-45b0-be2c-c132514b00d6)
+
+</div>
+
+<div align="center">
+
+![clinic_history (2)](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/c66f42dd-68fc-4520-96d8-245e68b6988d)
+
+</div>
 
 ### Installation Testing
 
@@ -257,35 +290,37 @@ Dalam konteks menggunakan Docker untuk pengembangan dan pengujian aplikasi E-Kli
    - Menggunakan Docker Compose untuk mengatur dan menjalankan seluruh stack aplikasi dalam beberapa container.
    - Memastikan bahwa setiap container dapat berkomunikasi dengan yang lain sesuai dengan definisi di docker-compose.yml.
 
-3. *Configuration Testing*:
-   - Menguji aplikasi dalam berbagai konfigurasi container untuk memastikan kompatibilitas dan kinerja.
-   - Memastikan bahwa variabel lingkungan dan pengaturan konfigurasi lainnya diterapkan dengan benar dalam container.
-
-4. *Update and Rollback Testing*:
-   - Menguji proses update aplikasi dengan memperbarui Docker image dan memastikan bahwa aplikasi tetap berfungsi dengan baik.
-   - Memastikan bahwa proses rollback ke versi sebelumnya dapat dilakukan tanpa kehilangan data atau mengganggu fungsionalitas aplikasi.
-
 *Contoh Proses Pengujian Instalasi*:
-- Menjalankan docker build untuk membuat Docker image dari Dockerfile yang ada.
-- Menjalankan docker-compose up untuk memulai layanan dalam container.
-- Memverifikasi bahwa setiap container (MySQL, backend Laravel, frontend mobile) berjalan dengan benar dan saling berkomunikasi.
-- Menguji update Docker image dan melakukan rollback jika diperlukan.
-
 
 - Docker Build
-<p align="center"><img src="images/docker_build.png" alt="installation testing"></p>
+<div align="center">
+
+![docker_build](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/3b1e00b4-f808-4fbe-9c25-bd929dc5c217)
+
+</div>
 
 - Docker Up
-<p align="center"><img src="images/docker_up.png" alt="installation testing"></p>
+<div align="center">
+
+![docker_up](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/1d69d14a-d82b-4e3e-89be-4c1de5a6cb83)
+
+
+</div>
 
 - Docker Status
-<p align="center"><img src="images/docker_status.png" alt="installation testing"></p>
+<div align="center">
+
+![docker_status](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/3f6631e5-f704-40b4-bc94-202e0fca2adf)
+
+</div>
 
 - Docker Restart
-<p align="center"><img src="images/docker_restart.png" alt="installation testing"></p>
+<div align="center">
 
-- Result
-<p align="center"><img src="images/result.png" alt="installation testing"></p>
+![docker_restart](https://github.com/Ilhamroe/Sysadmin-3122500021/assets/111882022/3adf7cf8-4e41-40a8-8d23-281cbfa784dd)
+
+</div>
+
 
 - Dengan menggunakan Docker untuk fungsional dan installation testing, tim pengembang dapat memastikan bahwa aplikasi E-Klinik PENS tidak hanya berfungsi dengan baik, tetapi juga mudah diinstal, dikonfigurasi, dan diperbarui dalam lingkungan yang terkontainerisasi.
 
